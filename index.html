@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./scripts/script.js" defer></script>
+    <title>My weather</title>
+</head>
+<body>
+    <div class="container" id="main-container">
+        <header class="container" id="header">
+            <div class="sub-container" id="search-bar-box">
+                <input type="search" name="search" id="search" placeholder="Enter location here">
+                <i class="fa fa-search" id="search-btn"></i>
+            </div>
+               <div class="sub-container" id="date-and-time">
+                <h3 class="header-text" id="date"></h3>
+               <h3 class="header-text" id="time"></h3>
+               </div>
+               <h3 class="header-text" id="place"></h3>
+        </header>
+        <content class="container" id="main-content">              
+            <img src="./assets/images/partly-cloudy.png" id="icon" alt="cloudy-weather" width="150px">
+            <h2 id="weather-legend"></h2>
+        </content>
+        <footer class="container" id="footer">
+            <div class="sub-container" id="temp-units">
+                <h2 id="temperatureC"></h2>
+            <h2 id="temperatureF"></h2>
+            </div>
+            <h3 id="region"></h3>
+        </footer>
+    </div>
+</body>
+</html>
